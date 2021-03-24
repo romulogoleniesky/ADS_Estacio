@@ -4,3 +4,5 @@
 
 ## Atividade - 002 (AT_Python_Estacio002) - Input.
 
+nome = input("Escreva o seu nome: ")
+print(nome)
