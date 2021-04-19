@@ -13,6 +13,6 @@ elif op == 'P':
     s = poupar(1.10)
 else:
     while op != 'S' or 'P':
-        print('Digite "S" para Sacar ou "P" para Poupar')
+        op = input('Digite "S" para Sacar ou "P" para Poupar')
         break
-print(f'{s:.2f}')
+print(f'Seu novo Saldo é: {s:.2f}')
